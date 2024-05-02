@@ -26,7 +26,8 @@
 
 ## 整體流程圖
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1539299e-7d70-4a8e-bc08-187012e1c8a5/4430a627-f79c-4164-8573-c567bf7b3599/Untitled.png)
+![Untitled](https://github.com/YumingChennn/robot-arm-using-LLM/assets/126893165/bd0778fb-1134-4ccb-a2ac-afbc91adc060)
+
 
 ## LLM.py
 
