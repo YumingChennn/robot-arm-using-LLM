@@ -171,28 +171,32 @@
         - 目前只能做到roll的旋轉
     - 流程圖
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1539299e-7d70-4a8e-bc08-187012e1c8a5/99646a8d-0f81-4a75-ad0b-79b43639fa81/Untitled.png)
+        ![Untitled (1)](https://github.com/YumingChennn/robot-arm-using-LLM/assets/126893165/6f019208-d910-4d3b-ad11-1ef0c7b78d9a)
+
         
 - lookfor
     - 限制條件
         - 只能偵測到相機所拍攝到的範圍
     - 流程圖
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1539299e-7d70-4a8e-bc08-187012e1c8a5/b21ec2f0-d055-4f51-bdf7-bf09b6f00a4c/Untitled.png)
+        ![Untitled (2)](https://github.com/YumingChennn/robot-arm-using-LLM/assets/126893165/d5f62ecc-bf1d-46e7-81e0-e4520d8f832c)
+
         
 - give
     - 限制條件
         - 只會在限制區域進行給予
     - 流程圖
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1539299e-7d70-4a8e-bc08-187012e1c8a5/ebbb6573-8e5d-4398-8a90-0cb17c220348/Untitled.png)
+        ![Untitled (3)](https://github.com/YumingChennn/robot-arm-using-LLM/assets/126893165/0516470b-26b1-4855-9716-9532d3d3adfb)
+
         
 - putback
     - 限制條件
         - 只會放置在指定區域
     - 流程圖
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1539299e-7d70-4a8e-bc08-187012e1c8a5/ff523634-aeaf-48e3-8b2c-d2d71ea7e6a1/Untitled.png)
+        ![Untitled (4)](https://github.com/YumingChennn/robot-arm-using-LLM/assets/126893165/58c4638e-3bc0-45bc-8d71-dab4d320aa96)
+
         
 - stack
     - 限制條件
@@ -201,7 +205,8 @@
         - 只會堆疊在0號Apriltag上面
     - 流程圖
         
-        ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/1539299e-7d70-4a8e-bc08-187012e1c8a5/89dd5977-5e04-4c66-8743-47184ad3be2f/Untitled.png)
+        ![Untitled (5)](https://github.com/YumingChennn/robot-arm-using-LLM/assets/126893165/e6436f51-d5a4-46ef-b0c8-ca4118d2afe4)
+
         
 
 ## 待改進項目
