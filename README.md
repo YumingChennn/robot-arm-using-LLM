@@ -21,8 +21,8 @@
 
 ## Getting Started
 
-1. 下載所有的檔案
-2. 確保已經安裝所需套件
+1. Download all files
+2. Ensure required packages are installed.
 
 ## 整體流程圖
 
