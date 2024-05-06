@@ -2,7 +2,7 @@
 
 ## Project Goals
 
-- 將Large language models(LLM)與機器手臂串接，讓使用者透過文字直接操控機械手臂。
+- Integrating Large Language Models (LLMs) with robotic arms, allowing users to directly manipulate the robotic arm through text.。
 
 ## Prerequisite
 
