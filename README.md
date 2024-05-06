@@ -164,46 +164,46 @@
 ## RoboticArm.py
 
 - catch
-    - 限制條件
-        - 只能抓取相機所拍攝到的範圍
-        - 若相機有移動，會需要調整Offset
-        - 0號Apriltag不會抓取
-        - 目前只能做到roll的旋轉
-    - 流程圖
+    - Constraints
+        - Can only capture the area captured by the camera.
+        - If the camera moves, Offset needs to be adjusted.
+        - AprilTag with ID 0 will not be captured.
+        - Currently, only rotation along the roll axis is possible.
+    - Flowchart
         
         ![Untitled (1)](https://github.com/YumingChennn/robot-arm-using-LLM/assets/126893165/6f019208-d910-4d3b-ad11-1ef0c7b78d9a)
 
         
 - lookfor
-    - 限制條件
-        - 只能偵測到相機所拍攝到的範圍
-    - 流程圖
+    - Constraints
+        - Can only detect the area captured by the camera
+    - Flowchart
         
         ![Untitled (2)](https://github.com/YumingChennn/robot-arm-using-LLM/assets/126893165/d5f62ecc-bf1d-46e7-81e0-e4520d8f832c)
 
         
 - give
-    - 限制條件
-        - 只會在限制區域進行給予
-    - 流程圖
+    - Constraints
+        - Will only give in restricted zones
+    - Flowchart
         
         ![Untitled (3)](https://github.com/YumingChennn/robot-arm-using-LLM/assets/126893165/0516470b-26b1-4855-9716-9532d3d3adfb)
 
         
 - putback
-    - 限制條件
-        - 只會放置在指定區域
-    - 流程圖
+    - Constraints
+        - Will only place in designated areas.
+    - Flowchart
         
         ![Untitled (4)](https://github.com/YumingChennn/robot-arm-using-LLM/assets/126893165/58c4638e-3bc0-45bc-8d71-dab4d320aa96)
 
         
 - stack
-    - 限制條件
-        - 只規劃在限制區域做堆疊
-        - 若相機有移動，會需要調整Offset, letMesee
-        - 只會堆疊在0號Apriltag上面
-    - 流程圖
+    - Constraints
+        - Stacking is only planned within the restricted area.
+        - If the camera moves, Offset and letMesee need to be adjusted.
+        - Stacking will only occur on AprilTag 0.
+    - Flowchart
         
         ![Untitled (5)](https://github.com/YumingChennn/robot-arm-using-LLM/assets/126893165/e6436f51-d5a4-46ef-b0c8-ca4118d2afe4)
 
@@ -212,19 +212,19 @@
 ## 待改進項目
 
 - LLM.py
-    - 無法處理不合理的指令
-        - 狀況：如果輸入不合理的語句時，會吐出錯誤的指令。
-        - 解決方案：**ReAct prompting**
-        - 參考連結：https://edge.aif.tw/application-react-prompting/
+    - Unable to process unreasonable commands
+        - Scenario: Error commands will be outputted if an unreasonable statement is inputted.
+        - Solution: **ReAct prompting**
+        - Reference: https://edge.aif.tw/application-react-prompting/
 
-## 未來展望
+## Future Goal
 
-- 語音輸入
-    - 現狀：通過文字操控機器人
-    - 未來：透過語音輸入，讓流程更加人性化。
-- 物件夾取
-    - 現狀：能夠通過Apriltag進行夾取
-    - 未來：通過深度相機加上其他算法，進行物件夾取。
+- Voice Input
+    - Current State: Controlling the robot through text.
+    - Future: Making the process more human-friendly by implementing voice input.
+- Object Gripping
+    - Current State: Capable of gripping objects using Apriltags.
+    - Future: Enhancing object gripping capabilities through depth cameras and other algorithms
 
 ## Troubleshooting
 
@@ -238,3 +238,9 @@
     - solution: Replug the connection line.
 - libfranka: Move command rejected: command not possible in the current mode ("User stopped")!
     - solution: Change the status of operation in the dashboard.
+- RuntimeError: xioctl(VIDIOC_S_FMT) failed, errno=5 Last Error: Input/output error
+    - reason: Connection error
+    - solution: Replug the connection line
+- RuntimeError: Frame didn't arrive within 5000
+    - reason: Connection error
+    - solution: Replug the connection line
