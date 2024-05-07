@@ -2,7 +2,7 @@
 
 ## Project Goals
 
-- Integrating Large Language Models (LLMs) with robotic arms, allowing users to directly manipulate the robotic arm through text.。
+- Integrating Large Language Models (LLMs) with robotic arms, allowing users to directly manipulate the robotic arm through text.
 
 ## Prerequisite
 
