@@ -24,7 +24,7 @@
 1. Download all files
 2. Ensure required packages are installed.
 
-## 整體流程圖
+## Flow diagram
 
 ![Untitled](https://github.com/YumingChennn/robot-arm-using-LLM/assets/126893165/bd0778fb-1134-4ccb-a2ac-afbc91adc060)
 
