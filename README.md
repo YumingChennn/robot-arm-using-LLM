@@ -209,7 +209,7 @@
 
         
 
-## 待改進項目
+## Items for Improvement
 
 - LLM.py
     - Unable to process unreasonable commands
